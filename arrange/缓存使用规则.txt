@@ -1,0 +1,2 @@
+1、数据库里只有一条记录的Po对象统一实现RedisPoInterface接口，定义一个静态的私有字符串数组对象fields(它初始定义所有这个对象需要缓存的数据，基本和库里一致)
+   数据库里有多条记录的Po对象统一实现RedisListInterface接口，
